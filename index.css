@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.logo-con {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo1 {
+    width: 50px;
+}
+
+.page-body {
+    background-image: linear-gradient(to right, #f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.bg-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+}
+
+.img-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .img-con {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .page-body {
+        background-image: linear-gradient(to bottom, #f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .input {
+        display: none;
+    }
+
+    .bar1 {
+        display: none;
+    }
+
+    .bar2 {
+        display: none;
+    }
+
+    .bar3 {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+}
